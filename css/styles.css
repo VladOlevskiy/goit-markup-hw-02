@@ -1,0 +1,256 @@
+:root {
+  --header-color: ;
+  --main-title-color: #212121;
+  --logo-color: #212121;
+  --second-title-color: #ffffff;
+  --main-btn-color: #ffffff;
+  --second-btn-color: #212121;
+  --accent-color: #2196f3;
+  --background-section: #2f303a;
+}
+
+body {
+  font-family: robota, Tahoma, sans-serif;
+  color: #757575;
+}
+/* ---------------------глобальні класи---------------------- */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.nav {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.contact {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.addres-footer {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.title-studio {
+  font-family: inherit;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* --------------------Футер------------------------------- */
+
+.header-logo {
+  font-family: 'Raleway', Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+}
+
+.header-logo-web,
+.footer-logo-web {
+  color: var(--accent-color);
+}
+
+/* .header-logo:focus,
+.header-logo:hover,
+.footer-logo:focus,
+.footer-logo:hover {
+  color: var(--accent-color);
+} */
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.header-link-mail:hover,
+.header-link-mail:focus,
+.header-link-tel:hover,
+.header-link-tel:focus {
+  color: var(--accent-color);
+}
+
+/* -----------------Секція Hero Студія------------------- */
+.hero {
+  background-color: var(--background-section);
+}
+
+.hero-title {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--second-title-color);
+}
+
+.hero-btn-order {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.hero-btn-order:hover,
+.hero-btn-order:focus {
+  background-color: var(--main-title-color);
+}
+/* -------------------Секція Наші переваги---------------------------- */
+
+.features-title {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.features-text {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* ---------------------Секція Наша команда------------------------------ */
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-list-title {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.team-list-text {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* -------------------------------------------------Футер--------------------------------------------------------- */
+
+.footer {
+  background-color: var(--background-section);
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address-text {
+  color: #ffffff;
+}
+
+.address-text:hover,
+.address-text:focus,
+.address-link-mail:hover,
+.address-link-mail:focus,
+.address-link-tel:hover,
+.address-link-tel:focus {
+  color: var(--accent-color);
+}
+
+/* ------------------------------------------------------Секція Hero Портфорліо--------------------------------------------- */
+.hero-btn-filter {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--second-btn-color);
+  background-color: #f5f4fa;
+}
+
+.hero-btn-filter:hover,
+.hero-btn-filter:focus {
+  color: var(--main-btn-color);
+  background-color: var(--accent-color);
+}
+
+.product-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+
+.product-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
