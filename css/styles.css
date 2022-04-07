@@ -1,5 +1,4 @@
 :root {
-  --header-color: ;
   --main-title-color: #212121;
   --logo-color: #212121;
   --second-title-color: #ffffff;
@@ -13,7 +12,7 @@ body {
   font-family: robota, Tahoma, sans-serif;
   color: #757575;
 }
-/* ---------------------глобальні класи---------------------- */
+/* -----------------------------------------------глобальні класи----------------------------------------------------------------------------- */
 .link {
   text-decoration: none;
 }
@@ -37,6 +36,8 @@ body {
 
 .nav {
   font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -45,6 +46,8 @@ body {
 
 .contact {
   font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -53,8 +56,6 @@ body {
 
 .addres-footer {
   font-family: inherit;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -77,9 +78,10 @@ body {
   line-height: 1.63;
   letter-spacing: 0.03em;
   color: #212121;
+  cursor: pointer;
 }
 
-/* --------------------Футер------------------------------- */
+/* ---------------------------------------------------------Футер--------------------------------------------------------------------------- */
 
 .header-logo {
   font-family: 'Raleway', Tahoma, sans-serif;
@@ -115,7 +117,7 @@ body {
   color: var(--accent-color);
 }
 
-/* -----------------Секція Hero Студія------------------- */
+/* -------------------------------------------------Секція Hero Студія---------------------------------------------------------------------- */
 .hero {
   background-color: var(--background-section);
 }
@@ -144,13 +146,14 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .hero-btn-order:hover,
 .hero-btn-order:focus {
   background-color: var(--main-title-color);
 }
-/* -------------------Секція Наші переваги---------------------------- */
+/* -------------------------------------------------------Секція Наші переваги-------------------------------------------------------------- */
 
 .features-title {
   font-family: inherit;
@@ -168,7 +171,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* ---------------------Секція Наша команда------------------------------ */
+/* -------------------------------------------------------Секція Наша команда---------------------------------------------------------------- */
 .team {
   background-color: #f5f4fa;
 }
@@ -186,15 +189,13 @@ body {
 
 .team-list-text {
   font-family: inherit;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
-/* -------------------------------------------------Футер--------------------------------------------------------- */
+/* ---------------------------------------------------------------Футер--------------------------------------------------------------------- */
 
 .footer {
   background-color: var(--background-section);
@@ -223,14 +224,17 @@ body {
   color: var(--accent-color);
 }
 
-/* ------------------------------------------------------Секція Hero Портфорліо--------------------------------------------- */
+/* ------------------------------------------------------------------Секція Hero Портфорліо-------------------------------------------------- */
 .hero-btn-filter {
   font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
   color: var(--second-btn-color);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .hero-btn-filter:hover,
@@ -247,8 +251,6 @@ body {
 }
 
 .product-text {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
