@@ -1,16 +1,28 @@
 :root {
   --main-title-color: #212121;
   --logo-color: #212121;
-  --second-title-color: #ffffff;
-  --main-btn-color: #ffffff;
+  --header-nav-color: #212121;
   --second-btn-color: #212121;
   --accent-color: #2196f3;
   --background-section: #2f303a;
+  --background-body: #ffffff;
+  --main-body-color: #757575;
+  --header-contact-color: #757575;
+  --product-text-color: #757575;
+  --adress-footer-color: rgba(255, 255, 255, 0.6);
+  --second-background-color: #f5f4fa;
+  --footer-logo-color: #ffffff;
+  --address-text-color: #ffffff;
+  --second-title-color: #ffffff;
+  --main-btn-color: #ffffff;
 }
 
 body {
-  font-family: robota, Tahoma, sans-serif;
-  color: #757575;
+  font-family: 'Roboto', Tahoma, sans-serif;
+  color: var(--main-body-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--background-body);
 }
 /* -----------------------------------------------глобальні класи----------------------------------------------------------------------------- */
 .link {
@@ -36,22 +48,20 @@ body {
 
 .nav {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--header-nav-color);
 }
 
 .contact {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--header-contact-color);
 }
 
 .addres-footer {
@@ -59,7 +69,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  color: var(--adress-footer-color);
 }
 
 .title-studio {
@@ -67,17 +78,16 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-title-color);
 }
 
 .btn {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--second-btn-color);
   cursor: pointer;
 }
 
@@ -85,7 +95,6 @@ body {
 
 .header-logo {
   font-family: 'Raleway', Tahoma, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -116,6 +125,9 @@ body {
 .header-link-tel:focus {
   color: var(--accent-color);
 }
+.navigation-list .navigation-link.current {
+  color: var(--accent-color);
+}
 
 /* -------------------------------------------------Секція Hero Студія---------------------------------------------------------------------- */
 .hero {
@@ -124,7 +136,6 @@ body {
 
 .hero-title {
   font-family: inherit;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -136,7 +147,6 @@ body {
 
 .hero-btn-order {
   font-family: inherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -144,7 +154,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--main-btn-color);
   background-color: var(--accent-color);
   cursor: pointer;
 }
@@ -159,26 +169,22 @@ body {
   font-family: inherit;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-title-color);
 }
 
 .features-text {
   font-family: inherit;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 /* -------------------------------------------------------Секція Наша команда---------------------------------------------------------------- */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--second-background-color);
 }
 
 .team-list-title {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -203,16 +209,15 @@ body {
 
 .footer-logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--footer-logo-color);
 }
 
 .address-text {
-  color: #ffffff;
+  color: var(--address-text-color);
 }
 
 .address-text:hover,
@@ -227,13 +232,12 @@ body {
 /* ------------------------------------------------------------------Секція Hero Портфорліо-------------------------------------------------- */
 .hero-btn-filter {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
   color: var(--second-btn-color);
-  background-color: #f5f4fa;
+  background-color: var(--second-background-color);
   cursor: pointer;
 }
 
@@ -254,5 +258,5 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--product-text-color);
 }
